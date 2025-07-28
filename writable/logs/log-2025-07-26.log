@@ -1,0 +1,187 @@
+
+DEBUG - 2025-07-26 18:46:17 --> >>> Entrando al método validar()
+DEBUG - 2025-07-26 18:46:17 --> >>> Entrando al método validar()
+DEBUG - 2025-07-26 18:46:17 --> Número de tarjeta recibido: '31030'
+DEBUG - 2025-07-26 18:46:17 --> Modelo Ingreso_Model instanciado
+DEBUG - 2025-07-26 18:46:17 --> Legajo obtenido: array (
+  'id_legajo' => '609',
+  'matricula' => '21314',
+  'nro_tarjeta' => '31030',
+  'apnombre' => 'BONET, GONZALO ',
+  'id_empresa' => '1',
+  'nro_documento' => '30926673',
+  'id_departamento' => '5',
+  'id_calendario' => '3',
+  'id_estado' => '1',
+  'ingresos_diario' => '2',
+  'h_inicio' => '00:00:00',
+  'h_fin' => '23:59:59',
+  'correo' => 'gbonet@na-sa.com.ar',
+  'id_comedor' => '1',
+)
+DEBUG - 2025-07-26 18:46:17 --> Legajo habilitado
+DEBUG - 2025-07-26 18:46:17 --> IP detectada: 10.20.22.101
+DEBUG - 2025-07-26 18:46:17 --> Validación horaria OK
+DEBUG - 2025-07-26 18:46:17 --> No se detectó ingreso duplicado
+DEBUG - 2025-07-26 18:46:17 --> IP detectada: 10.20.22.101
+DEBUG - 2025-07-26 18:46:17 --> Historial agregado con ID: 949744
+DEBUG - 2025-07-26 18:46:17 --> ?? Voy a escribir probe.log ahora
+DEBUG - 2025-07-26 18:54:17 --> >>> Entrando al método validar()
+DEBUG - 2025-07-26 18:54:17 --> >>> Entrando al método validar()
+DEBUG - 2025-07-26 18:54:17 --> Número de tarjeta recibido: '31030'
+DEBUG - 2025-07-26 18:54:17 --> Modelo Ingreso_Model instanciado
+DEBUG - 2025-07-26 18:54:17 --> Legajo obtenido: array (
+  'id_legajo' => '609',
+  'matricula' => '21314',
+  'nro_tarjeta' => '31030',
+  'apnombre' => 'BONET, GONZALO ',
+  'id_empresa' => '1',
+  'nro_documento' => '30926673',
+  'id_departamento' => '5',
+  'id_calendario' => '3',
+  'id_estado' => '1',
+  'ingresos_diario' => '2',
+  'h_inicio' => '00:00:00',
+  'h_fin' => '23:59:59',
+  'correo' => 'gbonet@na-sa.com.ar',
+  'id_comedor' => '1',
+)
+DEBUG - 2025-07-26 18:54:17 --> Legajo habilitado
+DEBUG - 2025-07-26 18:54:17 --> IP detectada: 10.20.22.101
+DEBUG - 2025-07-26 18:54:17 --> Validación horaria OK
+DEBUG - 2025-07-26 18:54:17 --> No se detectó ingreso duplicado
+DEBUG - 2025-07-26 18:54:17 --> IP detectada: 10.20.22.101
+DEBUG - 2025-07-26 18:54:17 --> Historial agregado con ID: 949745
+DEBUG - 2025-07-26 18:54:17 --> ?? Voy a escribir probe.log ahora
+DEBUG - 2025-07-26 18:56:51 --> >>> Entrando al método validar()
+DEBUG - 2025-07-26 18:56:51 --> >>> Entrando al método validar()
+DEBUG - 2025-07-26 18:56:51 --> Número de tarjeta recibido: '56669'
+DEBUG - 2025-07-26 18:56:51 --> Modelo Ingreso_Model instanciado
+DEBUG - 2025-07-26 18:56:51 --> Legajo obtenido: array (
+  'id_legajo' => '4091',
+  'matricula' => NULL,
+  'nro_tarjeta' => '56669',
+  'apnombre' => 'CECHA VERONICA',
+  'id_empresa' => '6',
+  'nro_documento' => '26796150',
+  'id_departamento' => '28',
+  'id_calendario' => '3',
+  'id_estado' => '1',
+  'ingresos_diario' => '1',
+  'h_inicio' => '00:00:00',
+  'h_fin' => '15:00:00',
+  'correo' => NULL,
+  'id_comedor' => '3',
+)
+DEBUG - 2025-07-26 18:56:51 --> Legajo habilitado
+DEBUG - 2025-07-26 18:56:51 --> IP detectada: 10.20.22.101
+DEBUG - 2025-07-26 18:56:51 --> Validación horaria OK
+DEBUG - 2025-07-26 18:56:51 --> No se detectó ingreso duplicado
+DEBUG - 2025-07-26 18:56:51 --> IP detectada: 10.20.22.101
+DEBUG - 2025-07-26 18:56:51 --> Historial agregado con ID: 949746
+DEBUG - 2025-07-26 18:56:51 --> ?? Voy a escribir probe.log ahora
+DEBUG - 2025-07-26 19:09:06 --> >>> Entrando al método validar()
+DEBUG - 2025-07-26 19:09:06 --> >>> Entrando al método validar()
+DEBUG - 2025-07-26 19:09:06 --> Número de tarjeta recibido: '31030'
+DEBUG - 2025-07-26 19:09:06 --> Modelo Ingreso_Model instanciado
+DEBUG - 2025-07-26 19:09:06 --> Legajo obtenido: array (
+  'id_legajo' => '609',
+  'matricula' => '21314',
+  'nro_tarjeta' => '31030',
+  'apnombre' => 'BONET, GONZALO ',
+  'id_empresa' => '1',
+  'nro_documento' => '30926673',
+  'id_departamento' => '5',
+  'id_calendario' => '3',
+  'id_estado' => '1',
+  'ingresos_diario' => '2',
+  'h_inicio' => '00:00:00',
+  'h_fin' => '23:59:59',
+  'correo' => 'gbonet@na-sa.com.ar',
+  'id_comedor' => '1',
+)
+DEBUG - 2025-07-26 19:09:06 --> Legajo habilitado
+DEBUG - 2025-07-26 19:09:06 --> IP detectada: 10.20.22.101
+DEBUG - 2025-07-26 19:09:06 --> Validación horaria OK
+DEBUG - 2025-07-26 19:09:06 --> No se detectó ingreso duplicado
+DEBUG - 2025-07-26 19:09:06 --> IP detectada: 10.20.22.101
+DEBUG - 2025-07-26 19:09:06 --> Historial agregado con ID: 949747
+DEBUG - 2025-07-26 19:09:06 --> ?? Voy a escribir probe.log ahora
+DEBUG - 2025-07-26 19:09:13 --> >>> Entrando al método validar()
+DEBUG - 2025-07-26 19:09:13 --> >>> Entrando al método validar()
+DEBUG - 2025-07-26 19:09:13 --> Número de tarjeta recibido: '31030'
+DEBUG - 2025-07-26 19:09:13 --> Modelo Ingreso_Model instanciado
+DEBUG - 2025-07-26 19:09:13 --> Legajo obtenido: array (
+  'id_legajo' => '609',
+  'matricula' => '21314',
+  'nro_tarjeta' => '31030',
+  'apnombre' => 'BONET, GONZALO ',
+  'id_empresa' => '1',
+  'nro_documento' => '30926673',
+  'id_departamento' => '5',
+  'id_calendario' => '3',
+  'id_estado' => '1',
+  'ingresos_diario' => '2',
+  'h_inicio' => '00:00:00',
+  'h_fin' => '23:59:59',
+  'correo' => 'gbonet@na-sa.com.ar',
+  'id_comedor' => '1',
+)
+DEBUG - 2025-07-26 19:09:13 --> Legajo habilitado
+DEBUG - 2025-07-26 19:09:13 --> IP detectada: 10.20.22.101
+DEBUG - 2025-07-26 19:09:13 --> Validación horaria OK
+DEBUG - 2025-07-26 19:09:13 --> No se detectó ingreso duplicado
+DEBUG - 2025-07-26 19:09:13 --> IP detectada: 10.20.22.101
+DEBUG - 2025-07-26 19:09:13 --> Historial agregado con ID: 949748
+DEBUG - 2025-07-26 19:09:13 --> ?? Voy a escribir probe.log ahora
+DEBUG - 2025-07-26 19:09:20 --> >>> Entrando al método validar()
+DEBUG - 2025-07-26 19:09:20 --> >>> Entrando al método validar()
+DEBUG - 2025-07-26 19:09:20 --> Número de tarjeta recibido: '31030'
+DEBUG - 2025-07-26 19:09:20 --> Modelo Ingreso_Model instanciado
+DEBUG - 2025-07-26 19:09:20 --> Legajo obtenido: array (
+  'id_legajo' => '609',
+  'matricula' => '21314',
+  'nro_tarjeta' => '31030',
+  'apnombre' => 'BONET, GONZALO ',
+  'id_empresa' => '1',
+  'nro_documento' => '30926673',
+  'id_departamento' => '5',
+  'id_calendario' => '3',
+  'id_estado' => '1',
+  'ingresos_diario' => '2',
+  'h_inicio' => '00:00:00',
+  'h_fin' => '23:59:59',
+  'correo' => 'gbonet@na-sa.com.ar',
+  'id_comedor' => '1',
+)
+DEBUG - 2025-07-26 19:09:20 --> Legajo habilitado
+DEBUG - 2025-07-26 19:09:21 --> IP detectada: 10.20.22.101
+DEBUG - 2025-07-26 19:09:21 --> Validación horaria OK
+DEBUG - 2025-07-26 19:09:21 --> Ingreso duplicado detectado
+DEBUG - 2025-07-26 19:37:01 --> >>> Entrando al método validar()
+DEBUG - 2025-07-26 19:37:01 --> >>> Entrando al método validar()
+DEBUG - 2025-07-26 19:37:01 --> Número de tarjeta recibido: '31030'
+DEBUG - 2025-07-26 19:37:01 --> Modelo Ingreso_Model instanciado
+DEBUG - 2025-07-26 19:37:06 --> Legajo obtenido: array (
+  'id_legajo' => '609',
+  'matricula' => '21314',
+  'nro_tarjeta' => '31030',
+  'apnombre' => 'BONET, GONZALO ',
+  'id_empresa' => '1',
+  'nro_documento' => '30926673',
+  'id_departamento' => '5',
+  'id_calendario' => '3',
+  'id_estado' => '1',
+  'ingresos_diario' => '2',
+  'h_inicio' => '00:00:00',
+  'h_fin' => '23:59:59',
+  'correo' => 'gbonet@na-sa.com.ar',
+  'id_comedor' => '1',
+)
+DEBUG - 2025-07-26 19:37:06 --> Legajo habilitado
+DEBUG - 2025-07-26 19:37:06 --> IP detectada: 10.20.22.101
+DEBUG - 2025-07-26 19:37:06 --> Validación horaria OK
+DEBUG - 2025-07-26 19:37:06 --> No se detectó ingreso duplicado
+DEBUG - 2025-07-26 19:37:06 --> IP detectada: 10.20.22.101
+DEBUG - 2025-07-26 19:37:06 --> Historial agregado con ID: 949749
+DEBUG - 2025-07-26 19:37:06 --> ?? Voy a escribir probe.log ahora

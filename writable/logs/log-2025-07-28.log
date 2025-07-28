@@ -1,0 +1,5 @@
+DEBUG - 2025-07-28 11:56:50 --> >>> Entrando al método validar()
+DEBUG - 2025-07-28 11:56:50 --> >>> Entrando al método validar()
+DEBUG - 2025-07-28 11:56:50 --> Número de tarjeta recibido: '123'
+DEBUG - 2025-07-28 11:56:50 --> Modelo Ingreso_Model instanciado
+DEBUG - 2025-07-28 11:56:50 --> Tarjeta inválida o fuera de rango

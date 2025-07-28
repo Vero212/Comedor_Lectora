@@ -1,0 +1,127 @@
+.clock {
+    margin: -8px auto;
+    padding: 0px;
+    color: #FFF;
+    border: 8px #000 solid;
+
+}
+
+#Date {
+    font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+.clock ul {
+   
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+.clock ul li {
+    display: inline;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    
+}
+
+#point {
+    position: relative;
+    -moz-animation: mymove 1s ease infinite;
+    -webkit-animation: mymove 1s ease infinite;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Simple Animation */
+@-webkit-keyframes mymove {
+    0% {opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    }
+
+    50% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    100% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    }
+}
+
+@-moz-keyframes mymove {
+    0% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    }
+
+    50% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    100% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    };
+}
+
+     body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1 0 auto;
+      }
+
+      .input-field input[type=date]:focus + label,
+      .input-field input[type=text]:focus + label,
+      .input-field input[type=email]:focus + label,
+      .input-field input[type=password]:focus + label {
+        color: #0d47a1;
+      }
+
+      .input-field input[type=date]:focus,
+      .input-field input[type=text]:focus,
+      .input-field input[type=email]:focus,
+      .input-field input[type=password]:focus {
+        border-bottom: 2px solid #0d47a1;
+        box-shadow: none;
+      }
+
+      form p{
+        text-align: center !important;
+      }
+
+      #tarjeta {
+        font-size: 20px;
+      }
+
+      h1 {
+        font-size:40px;
+      }
+
+      h2 {
+        
+      }
+
+      #permitido{
+        color: #fff;
+        font-size:10px !important;
+        margin:0 !important;
+        padding: 0 !important;
+      }
+
+      #denegado{
+        color: #d50000;
+        font-size:10px !important;
+        margin:0 !important;
+        padding: 0 !important;
+      }    
