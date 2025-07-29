@@ -86,7 +86,7 @@ function limpiar() {
 function imprSelec(nroticket) {
     fetch(`${window.location.origin}/comedor/public/ingreso/generarTicket/${nroticket}`)
         .then(() => {
-            console.log('Ticket enviado a impresión');
+            console.log('Ticket enviado a impresiÃ³n');
         })
         .catch(err => {
             console.error('Error al imprimir ticket', err);

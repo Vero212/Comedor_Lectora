@@ -24,18 +24,18 @@ class Ingreso extends Controller
 
     public function validar()
 {
-    log_message('debug', '>>> Entrando al método validar()');
+    log_message('debug', '>>> Entrando al mï¿½todo validar()');
 
     $request = service('request');
     $nro_tarjeta = $request->getPost('tarjeta');
     
-        log_message('debug', ">>> Entrando al método validar()");
-        log_message('debug', "Número de tarjeta recibido: '$nro_tarjeta'");
+        log_message('debug', ">>> Entrando al mï¿½todo validar()");
+        log_message('debug', "Nï¿½mero de tarjeta recibido: '$nro_tarjeta'");
 
     if (empty($nro_tarjeta)) {
-            log_message('debug', 'Parámetro tarjeta ausente');
+            log_message('debug', 'Parï¿½metro tarjeta ausente');
             return $this->response->setJSON([
-                'result' => mb_convert_encoding('Parámetro tarjeta ausente', 'UTF-8', 'auto'),
+                'result' => mb_convert_encoding('Parï¿½metro tarjeta ausente', 'UTF-8', 'auto'),
                 'error' => 1
             ]);
         }
@@ -45,7 +45,7 @@ class Ingreso extends Controller
         log_message('debug', 'Modelo Ingreso_Model instanciado');
 
         if (!$modelo->check_tarjeta($nro_tarjeta) || $nro_tarjeta < 1000) {
-            log_message('debug', 'Tarjeta inválida o fuera de rango');
+            log_message('debug', 'Tarjeta invï¿½lida o fuera de rango');
             return $this->response->setJSON([
                 'result' => 'La tarjeta no se encuentra dada de alta',
                 'error' => 1
@@ -59,10 +59,10 @@ class Ingreso extends Controller
             log_message('debug', 'Legajo habilitado');
 
             if ($modelo->validar($nro_tarjeta)) {
-                log_message('debug', 'Validación horaria OK');
+                log_message('debug', 'Validaciï¿½n horaria OK');
 
                 if (!$modelo->check_repetido($nro_tarjeta)) {
-                    log_message('debug', 'No se detectó ingreso duplicado');
+                    log_message('debug', 'No se detectï¿½ ingreso duplicado');
 
                     $query = $modelo->add_historial($nro_tarjeta);
                     log_message('debug', 'Historial agregado con ID: ' . $query);
@@ -98,9 +98,9 @@ class Ingreso extends Controller
         }
     }
 
-    log_message('debug', 'Parámetro tarjeta ausente');
+    log_message('debug', 'ParÃ¡metro tarjeta ausente');
     return $this->response->setJSON([
-        'result' => 'Parámetro tarjeta ausente',
+        'result' => 'ParÃ¡metro tarjeta ausente',
         'error' => 1
     ]);
 }
@@ -108,14 +108,14 @@ class Ingreso extends Controller
     public function generarTicket($nroticket = null)
 {
 log_message('debug', '?? Voy a escribir probe.log ahora');
-file_put_contents(ROOTPATH . 'writable/logs/probe.log', "?? Entré a generarTicket\n", FILE_APPEND);
+file_put_contents(ROOTPATH . 'writable/logs/probe.log', "?? Entrï¿½ a generarTicket\n", FILE_APPEND);
 
     helper('filesystem'); // Por si el proyecto lo necesita
 
     if ($nroticket) {
         $logPath = ROOTPATH . 'writable/logs/imprimir_debug.log';
 
-        // Log: ingreso al método
+        // Log: ingreso al mï¿½todo
         file_put_contents($logPath, "?? [generarTicket] Ticket recibido: {$nroticket}\n", FILE_APPEND);
 
         // Armado del comando
@@ -133,8 +133,8 @@ file_put_contents(ROOTPATH . 'writable/logs/probe.log', "?? Entré a generarTicke
 
         return $salida;
     } else {
-        file_put_contents(ROOTPATH . 'writable/logs/imprimir_debug.log', "?? [generarTicket] No se recibió nroticket\n", FILE_APPEND);
-        return "Ticket inválido";
+        file_put_contents(ROOTPATH . 'writable/logs/imprimir_debug.log', "?? [generarTicket] No se recibiï¿½ nroticket\n", FILE_APPEND);
+        return "Ticket invÃ¡lido";
     }
 }
 }
